@@ -225,6 +225,7 @@ textarea.input {
   -webkit-transition: opacity 0.3s ease 0s;
   -o-transition: opacity 0.3s ease 0s;
   transition: opacity 0.3s ease 0s;
+  pointer-events: none;
 }
 
 .rating.rating_sending {
