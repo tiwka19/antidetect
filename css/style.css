@@ -1053,7 +1053,7 @@ a.toc-link {
   }
 
   .browser {
-    padding: 1.875rem;
+    padding: 1.5625rem;
   }
 
   .browser__title {
@@ -1096,6 +1096,11 @@ a.toc-link {
 
   .header .language {
     font-size: 1rem;
+  }
+
+  .browser__promocode span {
+    display: block;
+    margin: 0.3125rem;
   }
 }
 
