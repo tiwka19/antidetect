@@ -576,9 +576,7 @@ textarea.input {
 
 .browsers__search {
   position: relative;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 11.25rem;
-          flex: 0 0 11.25rem;
+  max-width: 11.25rem;
 }
 
 .browsers__search span {
@@ -1017,6 +1015,17 @@ a.toc-link {
     padding-top: 1.875rem;
   }
 
+  .browsers__heading {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .browsers__search {
+    max-width: 100%;
+  }
+
   .browsers__list {
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -1120,7 +1129,7 @@ a.toc-link {
   }
 
   .browsers__title {
-    font-size: 1.875rem;
+    font-size: 1.75rem;
   }
 
   .browsers__title {
@@ -1245,15 +1254,15 @@ a.toc-link {
     }
 }
 
-@supports (font-size: clamp( 1.875rem , 1.7697368421rem  +  0.5263157895vw , 2.1875rem )) {
+@supports (font-size: clamp( 1.75rem , 1.6026315789rem  +  0.7368421053vw , 2.1875rem )) {
     .browsers__title {
-      font-size: clamp( 1.875rem , 1.7697368421rem  +  0.5263157895vw , 2.1875rem );
+      font-size: clamp( 1.75rem , 1.6026315789rem  +  0.7368421053vw , 2.1875rem );
     }
 }
 
-@supports not (font-size: clamp( 1.875rem , 1.7697368421rem  +  0.5263157895vw , 2.1875rem )) {
+@supports not (font-size: clamp( 1.75rem , 1.6026315789rem  +  0.7368421053vw , 2.1875rem )) {
     .browsers__title {
-      font-size: calc(1.875rem + 0.3125 * (100vw - 20rem) / 59.375);
+      font-size: calc(1.75rem + 0.4375 * (100vw - 20rem) / 59.375);
     }
 }
 
