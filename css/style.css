@@ -971,83 +971,6 @@ a.toc-link {
   }
 }
 
-@media (max-width: 36em) {
-  .browsers__list {
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 20em) {
-  .breadcrumbs {
-    margin-bottom: 1.875rem;
-  }
-
-  .header__logo {
-    font-size: 2rem;
-  }
-
-  .header__actions {
-    gap: 0.9375rem;
-  }
-
-  .footer {
-    min-height: 20rem;
-  }
-
-  .footer .menu__list {
-    gap: 1.25rem;
-  }
-
-  .hero {
-    padding-bottom: 3.125rem;
-  }
-
-  .browsers {
-    padding-bottom: 4.6875rem;
-  }
-
-  .browsers__title {
-    font-size: 1.875rem;
-  }
-
-  .browsers__title {
-    margin-bottom: 1.875rem;
-  }
-
-  .browsers__list {
-    margin-bottom: 1.875rem;
-  }
-
-  .bonus__title {
-    font-size: 1.875rem;
-  }
-
-  .bonus__text {
-    font-size: 1rem;
-  }
-
-  .blog .browsers__heading {
-    margin-bottom: 1.875rem;
-  }
-
-  .post__wrapper {
-    padding-bottom: 3.125rem;
-  }
-
-  .browser {
-    margin-bottom: 1.875rem;
-  }
-
-  .browser__title {
-    font-size: 1.375rem;
-  }
-
-  .browser__data {
-    gap: 1.25rem;
-  }
-}
-
 @media (max-width: 61.99875em) {
   .hero__wrapper {
     -webkit-box-orient: vertical;
@@ -1144,6 +1067,13 @@ a.toc-link {
   }
 }
 
+@media (max-width: 36em) {
+  .browsers__list {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 29.99875em) and (max-width: 20em) {
   .header__logo img {
     max-width: 8.75rem;
@@ -1153,6 +1083,80 @@ a.toc-link {
 @media (max-width: 29.99875em) {
   .header__button {
     padding: 0.4375rem 0.75rem;
+  }
+
+  .header .language {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 20em) {
+  .breadcrumbs {
+    margin-bottom: 1.875rem;
+  }
+
+  .header__logo {
+    font-size: 2rem;
+  }
+
+  .header__actions {
+    gap: 0.9375rem;
+  }
+
+  .footer {
+    min-height: 20rem;
+  }
+
+  .footer .menu__list {
+    gap: 1.25rem;
+  }
+
+  .hero {
+    padding-bottom: 3.125rem;
+  }
+
+  .browsers {
+    padding-bottom: 4.6875rem;
+  }
+
+  .browsers__title {
+    font-size: 1.875rem;
+  }
+
+  .browsers__title {
+    margin-bottom: 1.875rem;
+  }
+
+  .browsers__list {
+    margin-bottom: 1.875rem;
+  }
+
+  .bonus__title {
+    font-size: 1.875rem;
+  }
+
+  .bonus__text {
+    font-size: 1rem;
+  }
+
+  .blog .browsers__heading {
+    margin-bottom: 1.875rem;
+  }
+
+  .post__wrapper {
+    padding-bottom: 3.125rem;
+  }
+
+  .browser {
+    margin-bottom: 1.875rem;
+  }
+
+  .browser__title {
+    font-size: 1.375rem;
+  }
+
+  .browser__data {
+    gap: 1.25rem;
   }
 }
 
